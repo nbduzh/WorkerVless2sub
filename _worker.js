@@ -256,7 +256,7 @@ export default {
 		const userAgent = userAgentHeader ? userAgentHeader.toLowerCase() : "null";
 		const url = new URL(request.url);
 		const format = url.searchParams.get('format') ? url.searchParams.get('format').toLowerCase() : "null";
-		let host = "workervless2sub-ec6.pages.dev";
+		let host = "vless-sub.057400.xyz";
 		let uuid = "b7dcfac8-88d7-4ca8-b143-ef93b4d5276d";
 		let path = "";
 		let sni = "";
