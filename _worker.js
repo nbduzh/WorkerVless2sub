@@ -29,7 +29,7 @@ let addressesnotlsapi = [
 
 let DLS = 8;//速度下限
 let addressescsv = [
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
+	'https://raw.githubusercontent.com/nbduzh/WorkerVless2sub/main/addressescsv.csv', //iptest测速结果文件。
 ];
 
 let subconverter = "SUBAPI.fxxk.dedyn.io"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
@@ -255,8 +255,8 @@ export default {
 		const userAgent = userAgentHeader ? userAgentHeader.toLowerCase() : "null";
 		const url = new URL(request.url);
 		const format = url.searchParams.get('format') ? url.searchParams.get('format').toLowerCase() : "null";
-		let host = "";
-		let uuid = "";
+		let host = "workervless2sub-ec6.pages.dev";
+		let uuid = "b7dcfac8-88d7-4ca8-b143-ef93b4d5276d";
 		let path = "";
 		let sni = "";
 		let type = "ws";
