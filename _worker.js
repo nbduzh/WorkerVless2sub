@@ -18,7 +18,7 @@ let addressesapi = [
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
-	'www.visa.com.sg#官方优选域名',
+	//'www.visa.com.sg#官方优选域名',
 	//'www.wto.org:8080#官方优选域名',
 	//'www.who.int:8880#官方优选域名',
 ];
@@ -256,7 +256,7 @@ export default {
 		const userAgent = userAgentHeader ? userAgentHeader.toLowerCase() : "null";
 		const url = new URL(request.url);
 		const format = url.searchParams.get('format') ? url.searchParams.get('format').toLowerCase() : "null";
-		let host = "vless-sub.057400.xyz";
+		let host = "vless-sub.my-gift.top";
 		let uuid = "b7dcfac8-88d7-4ca8-b143-ef93b4d5276d";
 		let path = "";
 		let sni = "";
